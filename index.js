@@ -1,11 +1,11 @@
 
-const appid='你的appid';
-const secret='你的appsecret';
-const userid='关注测试号后你的微信号userid';
-const wechat_token_url='https://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential&appid=你的appid&secret=你的appsecret'
-const templateId='模板id'
+const appid='wx4120847faa3001be';
+const secret='411af8a4ff0674b206f7e1ad8984efc8';
+const userid='o-eSw6aHI7RpJByGzCBRgBaTa4cg';
+const wechat_token_url='https://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential&appid=wx4120847faa3001be&secret=411af8a4ff0674b206f7e1ad8984efc8'
+const templateId='7EltqJnsht6YHNZabDfbATKdNq_AsiJM8NMo-D5Wj0E'
 
-addEventListener('fetch', event => {
+addEventListener('fetch'， event => {
   return event.respondWith(postWeChatUrl(event.request))
 })
 
